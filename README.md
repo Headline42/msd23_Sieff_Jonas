@@ -22,8 +22,9 @@ sudo apt install openjdk-19-jdk
 If you did everything right you will see a menu
 
 <img src="pic1.png" style="width:100%">
+
 _Figure 1:_ Menu with controls
-***
+
 ## Usage
 
 #### Available Commands
