@@ -46,6 +46,10 @@ Figure 1: Menu with controls
 
 - If you want to contribute: [PaypalMe](https://www.paypal.com)
 
-## License
+## Author
 
 ©2024 Jonas Sieff 
+
+My Github: https://github.com/Headline42/msd23_Sieff_Jonas
+
+My University: https://www.fh-joanneum.at/
