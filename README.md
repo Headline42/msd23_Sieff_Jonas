@@ -1,4 +1,4 @@
-# Studata 
+# Studata
 
 This program gets user data to store from students. It is possible to delete and edit it later.
 
@@ -19,18 +19,24 @@ sudo apt install openjdk-19-jdk
   java Studata
 ```
 
-If you did everything right you will see a menu
+If you did everything right you will see a menu:
 
-<img src="pic1.png" style="width:100%">
-
-_Figure 1:_ Menu with controls
-
+![](resources/images/ex1_1.png)  
+Figure 1: Menu with controls
+***
 ## Usage
 
 #### Available Commands
 - **New person:** Set data for new student.
 - **Get person:** Get data of existing student.
-- **Quit:** Shuts down the program. 
+- **Quit:** Shuts down the program.
+
+## Exercises
+- [Exercise1](exercise1.md)
+- [Exercise2](exercise2.md)
+
+
+
 
 ## Contributing
 
