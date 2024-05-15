@@ -10,11 +10,12 @@ public class Main {
 
         Calculator calc = new Calculator();
 
+       calc.add(1,1);
+       calc.minus(1,1);
+       calc.divide(1,1);
+       calc.multiply(1,1);
 
 
-        System.out.println( calc.add(1,1));
-        System.out.println( calc.minus(1,1));
-        System.out.println( calc.divide(1,1));
-        System.out.println( calc.multiply(1,1));
+        System.out.println("Sieff Jonas");
     }
 }
