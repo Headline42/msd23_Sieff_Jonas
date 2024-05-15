@@ -2,7 +2,7 @@
 
 ## This is the first headline!
 
-![](pic1.png)
+![](resources/images/ex1_1.png)
 _Figure 1:_ This is the same picture as in README. For further information check: [README](README.md)
 
 
