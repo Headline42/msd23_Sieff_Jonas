@@ -1,35 +1,44 @@
 package at.fhj.msd;
 
-public class CalculatorTest {
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-        public  double add(double number1, double number2) {
+import static org.junit.jupiter.api.Assertions.*;
 
-            return number1 + number2;
-        }
+class CalculatorTest {
 
-        public  double minus(double number1, double number2) {
-            return number1 - number2;
+    private Calculator calculator;
 
-        }
-        public double divide(double number1, double number2) {
-
-            if(number2 != 0) {
-                return number1 / number2;
-            }else {
-
-                return -1;
-            }
-        }
-
-
-        public double multiply(double number1, double number2){
-
-
-            return number1 * number2;
-        }
-
-
+    @BeforeEach
+    void setUp() {
+        calculator = new Calculator();
     }
 
+    @Test
+    void testAdd() {
+        assertEquals(8, calculator.add(5, 3));
+        assertEquals(0, calculator.add(0, 0));
+        assertEquals(-2, calculator.add(-5, 3));
+    }
 
+    @Test
+    void testMinus() {
+        assertEquals(2, calculator.minus(5, 3));
+        assertEquals(0, calculator.minus(0, 0));
+        assertEquals(-8, calculator.minus(-5, 3));
+    }
 
+    @Test
+    void testDivide() {
+        assertEquals(2, calculator.divide(6, 3));
+        assertEquals(0, calculator.divide(0, 5));
+        assertEquals(-1, calculator.divide(5, 0));
+    }
+
+    @Test
+    void testMultiply() {
+        assertEquals(15, calculator.multiply(5, 3));
+        assertEquals(0, calculator.multiply(0, 5));
+        assertEquals(-15, calculator.multiply(-5, 3));
+    }
+}
