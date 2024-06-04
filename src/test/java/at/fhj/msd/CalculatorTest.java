@@ -36,6 +36,13 @@ class CalculatorTest {
     }
 
     @Test
+    void testFactorial() {
+        assertEquals(24, calculator.factorial(4));
+        assertEquals(-1, calculator.factorial(-1));
+        assertEquals(1, calculator.factorial(0));
+    }
+
+    @Test
     void testMultiply() {
         assertEquals(15, calculator.multiply(5, 3));
         assertEquals(0, calculator.multiply(0, 5));

@@ -61,3 +61,19 @@ For each calculator method, we created at least three JUnit test methods, coveri
 - The actual result was obtained by calling the corresponding calculator method with the specified parameters.
 
 
+
+![](/resources/images/ex4_1.png)
+
+_Screenshot 1:_ Passed tests
+
+![](/resources/images/ex4_2.png)
+
+_Screenshot 2:_ Failed tests
+
+![](/resources/images/ex4_3.png)
+
+_Screenshot 3:_ Passed tests after implementing factorial
+
+![](/resources/images/ex4_4.png)
+
+_Screenshot 4:_ mvn test
