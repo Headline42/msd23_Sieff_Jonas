@@ -35,6 +35,8 @@ Figure 1: Menu with controls
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
 - [Exercise3](exercise3.md)
+- [Exercise4](exercise3.md)
+- [Exercise5](exercise3.md)
 
 
 
