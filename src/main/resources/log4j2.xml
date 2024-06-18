@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Appenders>
-        <!-- Datei-Appender Definition -->
-        <File name="MyFile" fileName="logs/myapp.log" append="true">
+        <!-- File Appender Definition -->
+        <File name="MyFile" fileName="C:/Users/jonas/GIT/msd23_Sieff_Jonas/myapp.log" append="true">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
         </File>
     </Appenders>
 
     <Loggers>
-        <!-- Root-Logger Definition -->
+        <!-- Root Logger Definition -->
         <Root level="trace">
             <AppenderRef ref="MyFile"/>
         </Root>

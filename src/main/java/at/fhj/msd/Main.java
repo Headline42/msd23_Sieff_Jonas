@@ -12,13 +12,8 @@ public class Main {
 
        calc.add(1,1);
        calc.minus(1,1);
-       calc.divide(1,1);
+       calc.divide(1,0);
        calc.multiply(1,1);
-
-
-        logger.error("It is an error logger.");
-
-        logger.info("It is a info logger.");
 
         System.out.println("Sieff Jonas");
     }
