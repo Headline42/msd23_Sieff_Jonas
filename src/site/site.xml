@@ -1,11 +1,14 @@
-<project name="Drinks Documentation Demo">
-    <publishDate position="right"/>
-    <version position="left"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Konfigurations-Managment">
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.11.2</version>
+    </skin>
     <body>
-        <menu name="Overview">
-            <item name="Introduction" href="index.html"/>
-            <item name="Test" href="test.html"/>
-            <item name="Drinks" href="drinks.html"/>
+        <menu name="Übersicht">
+            <item name="Einleitung" href="index.html"/>
+            <item name="good-style" href="good_style.html"/>
         </menu>
         <menu ref="reports"/>
     </body>
